@@ -21,8 +21,8 @@ error message:
 Uncaught SyntaxError: Unexpected token :
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase or execution phase ? creation phase
+* syntax or semanitc ? syntax
 
 the fix:
 ```js
