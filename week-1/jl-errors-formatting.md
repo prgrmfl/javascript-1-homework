@@ -29,7 +29,7 @@ the fix:
 let a = 1;
 ```
 your notes:
-:smile
+:smile:
 
 [TOP](#formatting-errors)
 
