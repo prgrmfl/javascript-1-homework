@@ -17,7 +17,8 @@ broken code:
 let a = 1:
 ```
 error message:
-```Uncaught SyntaxError: Unexpected token :
+```
+Uncaught SyntaxError: Unexpected token :
 ```
 classification:
 * creation phase or execution phase ?
@@ -25,8 +26,10 @@ classification:
 
 the fix:
 ```js
+let a = 1;
 ```
 your notes:
+:smile
 
 [TOP](#formatting-errors)
 
