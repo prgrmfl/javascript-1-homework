@@ -8,5 +8,11 @@
 /*This is a possibly multiline
 comment.*/
 ```
+## 2. Declare JavaScript Variables
+
+``js
+var myName;
+``
+
 
 
