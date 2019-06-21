@@ -11,15 +11,15 @@ comment.*/
 
 ## 2. Declare JavaScript Variables
 
-``js
+```js
 var myName;
-``
+```
 
 ## 3.Storing Values with the Assignment Operator
-``js
+```js
 var a;
 var b = 2;
 
 a=7;
 b=a;
-``
+```
