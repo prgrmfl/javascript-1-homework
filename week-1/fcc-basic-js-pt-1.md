@@ -119,6 +119,19 @@ var remainder = 11 % 3;
 ## 17. Compound Assignment With Augmented Addition
 
 ```js
+var a = 3;
+var b = 17;
+var c = 12;
+
+// Only modify code below this line
+
+a += 12;
+b += 9;
+c += 7;
+
+// a is equal 15
+b is equal 26
+c is equal 19 //
 
 ```
 
