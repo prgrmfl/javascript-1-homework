@@ -65,55 +65,58 @@ var sum = 10 + 10;
 var difference = 45 - 33;
 ```
 
-## 9. Subtract One Number from Another with JavaScript
+## 9. Multiply Two Numbers with JavaScript
 
 ```js
-
+var product = 8 * 10;
 ```
 
-## 10. Subtract One Number from Another with JavaScript
+## 10. Divide One Number by Another with JavaScript
 
 ```js
-
+var quotient = 66 / 33;
 ```
 
-## 11. Subtract One Number from Another with JavaScript
+## 11. Increment a Number with JavaScript
 
 ```js
-
+var myVar = 87;
+myVar++;
 ```
 
-## 12. Subtract One Number from Another with JavaScript
+## 12. Decrement a Number with JavaScript
 
 ```js
-
+var myVar = 11;
+myVar--;
 ```
 
-## 13. Subtract One Number from Another with JavaScript
+## 13. Create Decimal Numbers with JavaScript
 
 ```js
-
+var myDecimal=8.7;
 ```
 
-## 14. Subtract One Number from Another with JavaScript
+## 14. Multiply Two Decimals with JavaScript
 
 ```js
-
+var product = 2.0 * 2.5;
 ```
 
-## 15. Subtract One Number from Another with JavaScript
+## 15. Divide One Decimal by Another with JavaScript
 
 ```js
-
+var quotient = 4.4 / 2.0;
 ```
 
-## 16. Subtract One Number from Another with JavaScript
+## 16. Finding a Remainder in JavaScript
 
 ```js
-
+var remainder = 11 % 3;
+// remainder is equal to 2
 ```
 
-## 17. Subtract One Number from Another with JavaScript
+## 17. Compound Assignment With Augmented Addition
 
 ```js
 
