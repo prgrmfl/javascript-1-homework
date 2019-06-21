@@ -16,6 +16,7 @@ var myName;
 ```
 
 ## 3. Storing Values with the Assignment Operator
+
 ```js
 var a;
 var b = 2;
@@ -25,6 +26,26 @@ b=a;
 ```
 
 ## 4. Initializing Variables with the Assignment Operator
+
 ```js
 var a=9;
+```
+
+## 5. Understanding Uninitialized Variables
+
+```js
+var a=5;
+var b=10;
+var c="I am a";
+
+// Do not change code below this line
+
+a = a + 1;
+b = b + 5;
+c = c + " String!";
+```
+
+## 6. Understanding Uninitialized Variables
+```js
+
 ```
