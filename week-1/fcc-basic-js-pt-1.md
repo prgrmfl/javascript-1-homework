@@ -130,132 +130,178 @@ b += 9;
 c += 7;
 
 // a is equal 15
-b is equal 26
-c is equal 19 //
+// b is equal 26
+// c is equal 19
 
 ```
 
-## 18. Subtract One Number from Another with JavaScript
+## 18. Compound Assignment With Augmented Subtraction
 
 ```js
-
+a -= 6;
+b -= 15;
+c -= 1;
 ```
 
-## 19. Subtract One Number from Another with JavaScript
+## 19. Compound Assignment With Augmented Multiplication
 
 ```js
-
+a *= 5;
+b *= 3;
+c *= 10;
 ```
 
-## 20. Subtract One Number from Another with JavaScript
+## 20. Compound Assignment With Augmented Division
 
 ```js
+var a = 48;
+var b = 108;
+var c = 33;
 
+// Only modify code below this line
+
+a /= 12;
+b /= 4;
+c /= 11;
 ```
 
-## 21. Subtract One Number from Another with JavaScript
+## 21. Declare String Variables
 
 ```js
-
+var myFirstName = "prgrm";
+var myLastName = "fl";
 ```
 
-## 22. Subtract One Number from Another with JavaScript
+## 22. Escaping Literal Quotes in Strings
 
 ```js
-
+var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+// output is: I am a "double quoted" string inside "double quotes".
 ```
 
-## 23. Subtract One Number from Another with JavaScript
+## 23. Quoting Strings with Single Quotes
 
 ```js
-
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 ```
 
-## 24. Subtract One Number from Another with JavaScript
+## 24. Escape Sequences in Strings
 
 ```js
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 
+// FirstLine
+//    \SecondLine
+// ThirdLine
 ```
 
-## 25. Subtract One Number from Another with JavaScript
+## 25. Concatenating Strings with Plus Operator
 
 ```js
-
+var myStr = "This is the start. " + "This is the end.";
 ```
 
-## 26. Subtract One Number from Another with JavaScript
+## 26. Concatenating Strings with the Plus Equals Operator
 
 ```js
-
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
 ```
 
-## 27. Subtract One Number from Another with JavaScript
+## 27. Constructing Strings with Variables
 
 ```js
-
+var myName = "prgrmfl";
+var myStr = "My name is " + myName + " and I am well!";
 ```
 
-## 28. Subtract One Number from Another with JavaScript
+## 28. Appending Variables to Strings
 
 ```js
-
+var someAdjective = "enjoying";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
 ```
 
-## 29. Subtract One Number from Another with JavaScript
+## 29. Find the Length of a String
 
 ```js
+// Setup
+var lastNameLength = 0;
+var lastName = "Lovelace";
 
+lastNameLength = lastName.length;
+//8
 ```
 
-## 30. Subtract One Number from Another with JavaScript
+## 30. Use Bracket Notation to Find the First Character in a String
 
 ```js
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
 
+firstLetterOfLastName = lastName[0];
 ```
 
-## 31. Subtract One Number from Another with JavaScript
+## 31. Understand String Immutability
 
 ```js
+var myStr = "Jello World";
 
+myStr = "Hello World";
 ```
+## Comment: 
+The individual characters of a string literal cannot be changed. The only way to change myStr would be to assign it with a new string.
+-This (myStr[0] = "H") doesn't work.
 
-## 32. Subtract One Number from Another with JavaScript
+## 32. Use Bracket Notation to Find the Nth Character in a String
 
 ```js
+var lastName = "Lovelace";
 
+var thirdLetterOfLastName = lastName[2];
 ```
 
-## 33. Subtract One Number from Another with JavaScript
+## 33. Use Bracket Notation to Find the Last Character in a String
 
 ```js
+var lastName = "Lovelace";
 
+var lastLetterOfLastName = lastName[lastName.length - 1];
 ```
 
-## 34. Subtract One Number from Another with JavaScript
+## 34. Use Bracket Notation to Find the Nth-to-Last Character in a String
 
 ```js
+var lastName = "Lovelace";
 
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
 ```
 
-## 35. Subtract One Number from Another with JavaScript
+## 35. Word Blanks
 
 ```js
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+  var result = "If I had a " + myAdjective + " " + myNoun + ", crazy people would have " + myVerb + " it " + myAdverb + "!";
+  return result;
+}
 
+wordBlanks("hummer", "fancy", "adore", "much");
 ```
 
-## 36. Subtract One Number from Another with JavaScript
+## 36. Store Multiple Values in one Variable using JavaScript Arrays
 
 ```js
-
+var myArray = ["The price of butter", 2.5];
 ```
 
-## 37. Subtract One Number from Another with JavaScript
+## 37. Nest one Array within Another Array
 
 ```js
-
+var myArray = [["Galatasaray", 69], ["All others", "in dream"]];
 ```
 
-## 38. Subtract One Number from Another with JavaScript
+## 38. Access Array Data with Indexes
 
 ```js
 
@@ -328,6 +374,138 @@ c is equal 19 //
 ```
 
 ## 50. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 51. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 52. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 53. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 54. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 55. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 56. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 57. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 58. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 59. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 60. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 61. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 62. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 63. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 64. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 65. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 66. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 67. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 68. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 69. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 70. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 71. Subtract One Number from Another with JavaScript
+
+```js
+
+```
+
+## 72. Subtract One Number from Another with JavaScript
 
 ```js
 
