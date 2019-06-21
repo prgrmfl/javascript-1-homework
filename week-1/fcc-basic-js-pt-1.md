@@ -17,11 +17,9 @@ var myName;
 
 ## 3.Storing Values with the Assignment Operator
 ``js
-// Setup
 var a;
 var b = 2;
 
-// Only change code below this line
 a=7;
 b=a;
 ``
