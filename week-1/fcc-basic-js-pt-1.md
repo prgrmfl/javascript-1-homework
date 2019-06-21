@@ -15,11 +15,16 @@ comment.*/
 var myName;
 ```
 
-## 3.Storing Values with the Assignment Operator
+## 3. Storing Values with the Assignment Operator
 ```js
 var a;
 var b = 2;
 
 a=7;
 b=a;
+```
+
+## 4. Initializing Variables with the Assignment Operator
+```js
+var a=9;
 ```
