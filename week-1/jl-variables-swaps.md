@@ -35,7 +35,15 @@ b = _;
 ```
 1. [the third](https://goo.gl/WXXtV7)
 ```js
-// your solution here
+let a = "d", b = "a", c = "b", d = "c";
+let _ = ' ';
+
+// can be done in 5 lines
+_ = d;
+d = a;
+a = b;
+b = c;
+c = _;
 ```
 1. [the fourth](https://goo.gl/nTA1DG)
 ```js
