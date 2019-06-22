@@ -1,3 +1,7 @@
+git checkout -b colevandersWands-patch-17 master
+git pull https://github.com/colevandersWands/javascript-1-homework.git patch-17
+
+
 # Week 1
 
 |  | your Emoji | your comments | coach emoji | coach comments |
