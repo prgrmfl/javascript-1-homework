@@ -30,7 +30,7 @@ the fix:
 let a = 'this is \
 two lines';
 ```
-your notes: When you want to use more than one line for a variable you should use "\".
+your notes: When you want to use more than one line for a variable you should use \\.
 
 [TOP](#primitive-type-errors)
 ---
