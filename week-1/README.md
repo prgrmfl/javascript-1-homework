@@ -9,7 +9,7 @@
 | :seedling: __[errors: variables](./jl-errors-variables.md)__ | :white_check_mark: | | :white_check_mark: :shipit: | the second error is actually "execution phase".  you can tell because python tutor moves to the "step-through" page before throwing an error |
 | :seedling: __[varibales: swaps](./jl-variables-swaps.md)__ | :white_check_mark: | | :white_check_mark: | |
 | :dash: __[variables: multiple assignments](./jl-variables-multiple.md)__ | | | | |
-| :seedling: __[how functions work](./jl-functions.md)__ | :white_check_mark: | | :white_check_mark: | we'll go over the rest in class |
+| :seedling: __[how functions work](./jl-functions.md)__ | :white_check_mark: | I have completed all!;) | :white_check_mark: | we'll go over the rest in class |
 | :dash: __[functions: turtle shuffle](./jl-turtle-shuffle.md)__ | | | | |
 
 ---
