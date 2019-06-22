@@ -24,7 +24,14 @@ b = _;
 ```
 1. [the second](https://goo.gl/KvayUU)
 ```js
-// your solution here
+let a = "c", b = "a", c = "b";
+let _ = ' ';
+
+// can be done in 4 line
+_ = c;
+c = a;
+a = b;
+b = _;
 ```
 1. [the third](https://goo.gl/WXXtV7)
 ```js
