@@ -1,8 +1,3 @@
-git checkout master
-git merge --no-ff colevandersWands-patch-17
-git push origin master
-
-
 # Week 1
 
 |  | your Emoji | your comments | coach emoji | coach comments |
