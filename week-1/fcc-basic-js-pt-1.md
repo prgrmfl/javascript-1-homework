@@ -811,3 +811,64 @@ function caseInSwitch(val) {
 
 console.log(caseInSwitch(3)); //gamma
 ```
+
+## 74. Adding a Default Option in Switch Statements
+
+```js
+function switchOfStuff(val) {
+  var answer = "";
+
+  switch(val) {
+    case "a":
+      return answer = "apple";
+      break;
+    case "b":
+      return answer = "bird";
+      break;
+    case "c":
+      return answer = "cat";
+      break; 
+    default:
+      return answer = "stuff";
+      break;  
+  }
+  
+
+  return answer;  
+}
+
+console.log(switchOfStuff(4)); //stuff
+```
+
+## 75. Multiple Identical Options in Switch Statements
+
+```js
+function sequentialSizes(val) {
+  var answer = "";
+
+  switch(val) {
+    case 1:
+    case 2:
+    case 3:
+      return answer = "Low";
+      break;
+    case 4:
+    case 5:
+    case 6:
+      return answer = "Mid";
+      break;
+    case 7:
+    case 8:
+    case 9:
+      return answer = "High";
+      break;
+  }
+  
+  return answer;  
+}
+
+// Change this value to test
+console.log(sequentialSizes(5)); //Mid
+```
+
+Resource: [freeCodeCamp](https://www.freecodecamp.org/)
