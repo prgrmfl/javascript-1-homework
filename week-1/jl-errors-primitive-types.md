@@ -43,15 +43,17 @@ let innerHtml = "<p>Click here to <a href="#Home">return home</a></p>";
 ```
 error message:
 ```
+SyntaxError: Unexpected token ILLEGAL
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase
+* syntax
 
 the fix:
 ```js
+let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
 ```
-your notes:
+your notes:It is not allowed to use two "" marks, e.g outside and inside a value!
 
 [TOP](#errors)
 
