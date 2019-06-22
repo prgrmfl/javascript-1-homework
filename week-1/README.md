@@ -9,7 +9,7 @@
 | :seedling: __[errors: variables](./jl-errors-variables.md)__ | :white_check_mark: | | | |
 | :seedling: __[varibales: swaps](./jl-variables-swaps.md)__ | :white_check_mark: | | | |
 | :dash: __[variables: multiple assignments](./jl-variables-multiple.md)__ | | | | |
-| :seedling: __[how functions work](./jl-functions.md)__ | :wavy_dash | | | |
+| :seedling: __[how functions work](./jl-functions.md)__ | :wavy_dash: | | | |
 | :dash: __[functions: turtle shuffle](./jl-turtle-shuffle.md)__ | | | | |
 
 ---
