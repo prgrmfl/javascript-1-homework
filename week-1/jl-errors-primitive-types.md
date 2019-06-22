@@ -19,18 +19,21 @@ two lines';
 ```
 error message:
 ```
+SyntaxError: Unexpected token ILLEGAL
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase
+* syntax
 
 the fix:
 ```js
+let a = 'this is \
+two lines';
 ```
 your notes:
 
 [TOP](#primitive-type-errors)
-
+When you want to use more than one line for a variable you should use "\".
 ---
 
 ## improper nested quotes 1
