@@ -22,6 +22,7 @@ let result = getNine();
 ```
 error message:
 ```
+SyntaxError: Unexpected token {
 ```
 classification:
 * creation phase or execution phase ?
