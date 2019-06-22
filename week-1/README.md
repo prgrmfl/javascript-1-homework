@@ -1,5 +1,6 @@
-git checkout -b colevandersWands-patch-17 master
-git pull https://github.com/colevandersWands/javascript-1-homework.git patch-17
+git checkout master
+git merge --no-ff colevandersWands-patch-17
+git push origin master
 
 
 # Week 1
