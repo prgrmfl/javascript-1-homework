@@ -182,7 +182,7 @@ some exercises to help you understand functions:
 ```js
 {  // 7
    function f(param_1, param_2, param_3) {
-    var result = /* arrange the params to pass the assert */;
+    var result = arg_3 + arg_1 + arg_2;
     return result;
    };
 
@@ -200,7 +200,7 @@ some exercises to help you understand functions:
 ```js
 {  // 8
    function f(param_1, param_2, param_3) {
-    var result = /* arrange the params to pass the assert */;
+    var result = arg_2 + arg_3 + arg_1;
     return result;
    };
 
