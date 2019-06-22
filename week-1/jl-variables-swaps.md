@@ -22,7 +22,7 @@ _ = a;
 a = b;
 b = _;
 ```
-1. [the second](https://goo.gl/KvayUU)
+2. [the second](https://goo.gl/KvayUU)
 ```js
 let a = "c", b = "a", c = "b";
 let _ = ' ';
@@ -33,7 +33,7 @@ c = a;
 a = b;
 b = _;
 ```
-1. [the third](https://goo.gl/WXXtV7)
+3. [the third](https://goo.gl/WXXtV7)
 ```js
 let a = "d", b = "a", c = "b", d = "c";
 let _ = ' ';
@@ -45,7 +45,7 @@ a = b;
 b = c;
 c = _;
 ```
-1. [the fourth](https://goo.gl/nTA1DG)
+4. [the fourth](https://goo.gl/nTA1DG)
 ```js
 // your solution here
 let a = "z", b = "y", c = "x", d = "w";
@@ -59,9 +59,19 @@ _ = b;
 b = c;
 c = _;
 ```
-1. [the fifth](https://goo.gl/gDaKNi)
+5. [the fifth](https://goo.gl/gDaKNi)
 ```js
 // your solution here
+let a = "z", b = "y", c = "x", d = "w", e = "v";
+let _ = ' ';
+
+// can be done in 6 lines
+_ = a;
+a = e;
+e = _;
+_ = b;
+b = d;
+d = _;
 ```
 
 ___
