@@ -68,6 +68,47 @@ console.log(abTest(2,-10));
 ## 79. Counting Cards
 
 ```js
+var count = 0;
+
+function cc(card) {
+  // Only change code below this line
+  switch(card){
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count++;
+      break;
+    case 10:
+    case "J":
+    case "Q":
+    case "K":
+    case "A":
+      count--;
+      break;
+  }
+  if(count > 0) {
+    return count + " " + "Bet";
+  } else {
+    return count + " " + "Hold";
+  }
+  
+  // Only change code above this line
+}
+
+// Add/remove calls to test your function.
+// Note: Only the last will display
+console.log(cc("Q")); //-1 Hold
+console.log(cc(3)); //0 Hold
+console.log(cc(7)); //0 Hold
+console.log(cc('K')); //-1 Hold
+console.log(cc('A')); //-2 Hold
+```
+
+## 80. Build JavaScript Objects
+
+```js
 
 ```
 
