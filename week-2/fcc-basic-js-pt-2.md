@@ -109,11 +109,248 @@ console.log(cc('A')); //-2 Hold
 ## 80. Build JavaScript Objects
 
 ```js
+var myDog = {
+  name : "Johnny",
+  legs: 3,
+  tails: 2,
+  friends: ["Pelush", "Koko"]  
+};
+```
 
+## 81. Accessing Object Properties with Dot Notation
+
+```js
+// Setup
+var testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+
+var hatValue = testObj.hat;      
+var shirtValue = testObj.shirt;
 ```
 
 
+## 82. Accessing Object Properties with Bracket Notation
 
+```js
+// Setup
+var testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+// Only change code below this line
+
+var entreeValue = testObj["an entree"];   
+var drinkValue = testObj["the drink"];   
+```
+
+
+## 83. Accessing Object Properties with Variables
+
+```js
+// Setup
+var testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+// Only change code below this line;
+
+var playerNumber = 16;       
+var player = testObj[playerNumber];  
+console.log(player);  //Montana
+```
+
+
+## 84. Updating Object Properties
+
+```js
+var myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line.
+myDog.name = "Happy Coder"; //or myDog["name"] = "Happy Coder";
+```
+
+
+## 85. Add New Properties to a JavaScript Object
+
+```js
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line.
+myDog.bark = "wooof";
+console.log(myDog.bark); //wooof
+```
+
+
+## 86. Delete Properties from a JavaScript Object
+
+```js
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line.
+delete myDog["tails"];
+```
+
+## 87. Using Objects for Lookups
+
+```js
+// Setup
+function phoneticLookup(val) {
+  var result = "";
+
+  var lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie":"Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  };
+  result = lookup[val];
+
+  return result;
+}
+
+// Change this value to test
+console.log(phoneticLookup("charlie")); //Chicago
+```
+
+## 88. Testing Objects for Properties
+
+```js
+// Setup
+var myObj = {
+  gift: "pony",
+  pet: "kitten",
+  bed: "sleigh"
+};
+
+function checkObj(checkProp) {
+
+  if(myObj.hasOwnProperty(checkProp)) {
+    return myObj[checkProp];
+  } else {
+    return "Not Found";
+  }  
+
+}
+
+// Test your code by modifying these values
+checkObj("gift");
+console.log(checkObj("gift")); //pony
+console.log(checkObj("bed")); //sleigh
+console.log(checkObj("mind")); //Not Found
+```
+
+## 89. Manipulating Complex Objects
+
+```js
+var myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [ 
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  },
+  // Add record here
+  {
+    "artist": "Barış Manço",
+    "title": "Sen Gelmez Oldun",
+    "release_year": 1990,
+    "formats": [
+      "DVD",
+      "mp3",
+      "avi"
+    ]
+  }
+];
+
+console.log(myMusic[1]["formats"][0]); //DVD
+console.log(myMusic[1]["artist"]); //Barış Manço
+```
+
+
+## 90. Accessing Nested Objects
+
+```js
+var myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+var gloveBoxContents = myStorage.car.inside["glove box"];
+console.log(gloveBoxContents); //maps
+var content = myStorage.car.outside.trunk;
+console.log(content); //jack
+```
+
+## 91. Accessing Nested Arrays
+
+```js
+var myPlants = [
+  { 
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }  
+];
+
+var secondTree = myPlants[1].list[1]; 
+console.log(secondTree); // pine
+```
+
+## 92. Record Collection
+
+```js
+
+```
 
 
 
