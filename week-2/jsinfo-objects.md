@@ -109,22 +109,36 @@ for (let key in salaries) {
 console.log(sum);
 ```
 
-## 5. Record Collection
+## 5. Multiply numeric properties by 2
 
 ```js
+//Create a function multiplyNumeric(obj) that multiplies all numeric properties of obj by 2.
+
+function multiplyNumeric(obj) {
+  for (let key in obj) {
+    if (typeof obj[key] === "number") {
+      obj[key] *= 2;  
+    }
+  }
+}
+
+//example:
+let menu = {
+  width: 200,
+  height: 300,
+  title: "My menu"
+};
+function multiplyNumeric(obj) {
+  for (let key in obj) {
+    if (typeof obj[key] == "number") {
+      obj[key] *= 2;  
+    }
+  }
+}
+
+multiplyNumeric(menu); //width	400, height	600, title	"My menu"
 
 ```
-
-## 1. Record Collection
-
-```js
-
-```
-
-
-
-
-
 
 
 Resource: [javascript.info](https://javascript.info/object)
