@@ -2,7 +2,7 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| :seedling: __[fcc: finish js basics](./fcc-basic-js-pt-2.md) | :white_check_mark: | What is the function of Radix in [parseInt](https://github.com/prgrmfl/javascript-1-homework/blob/master/week-2/fcc-basic-js-pt-2.md#105-use-the-parseint-function-with-a-radix-) | | |
+| :seedling: __[fcc: finish js basics](./fcc-basic-js-pt-2.md) | :white_check_mark: | What is the function of Radix in [105.parseInt Function](https://github.com/prgrmfl/javascript-1-homework/blob/master/week-2/fcc-basic-js-pt-2.md#105-use-the-parseint-function-with-a-radix-) | | |
 | :dash: __[janke: tracing conditionals](./js-tracing-conditionals.md) | | | | |
 | :seedling: __[javascript.info: loops](./jsinfo-loops.md) | :white_check_mark: | | | |
 | :dash: __[janke: loop refactors](./jl-loop-refactors.md) | | | | |
