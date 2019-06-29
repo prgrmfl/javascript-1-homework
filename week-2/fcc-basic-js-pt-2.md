@@ -349,8 +349,323 @@ console.log(secondTree); // pine
 ## 92. Record Collection
 
 ```js
+// Setup
+var collection = {
+    "2548": {
+      "album": "Slippery When Wet",
+      "artist": "Bon Jovi",
+      "tracks": [ 
+        "Let It Rock", 
+        "You Give Love a Bad Name" 
+      ]
+    },
+    "2468": {
+      "album": "1999",
+      "artist": "Prince",
+      "tracks": [ 
+        "1999", 
+        "Little Red Corvette" 
+      ]
+    },
+    "1245": {
+      "artist": "Robert Palmer",
+      "tracks": [ ]
+    },
+    "5439": {
+      "album": "ABBA Gold"
+    }
+};
+// Keep a copy of the collection for tests
+var collectionCopy = JSON.parse(JSON.stringify(collection));
+
+// Only change code below this line
+function updateRecords(id, prop, value) {
+  if (prop != "tracks" && value != "") {
+    collection[id][prop] = value;
+  } else if (prop === "tracks" && value != "") {
+    if (collection[id][prop]) {
+      collection[id][prop].push(value);
+    } else {
+      collection[id][prop]=[value];
+    }    
+  } else if (value == "") {
+    delete collection[id][prop];
+  };
+  
+  return collection;
+}
+
+// Alter values below to test your code
+updateRecords(5439, "artist", "ABBA");
 
 ```
+
+## 93. Iterate with JavaScript While Loops 
+
+```js
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+let i = 0;
+while (i <= 4) {
+  myArray.push(i);
+  i++;
+} 
+
+alert(myArray); //0,1,2,3,4
+```
+
+## 94. Iterate with JavaScript For Loops
+
+```js
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+for  (var i = 1 ;i <= 5; i++) {
+  myArray.push(i);
+}
+console.log(myArray); //1,2,3,4,5
+```
+
+## 95. Iterate Odd Numbers With a For Loop
+
+```js
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+for (var i = 1; i <= 9; i += 2) {
+  myArray.push(i);
+}
+console.log(myArray); //1,3,5,7,9
+```
+
+## 96. Count Backwards With a For Loop
+
+```js
+// Setup
+var myArray = [];
+
+// Only change code below this line.
+for (let i = 9; i > 0; i -= 2) {
+  myArray.push(i);
+}
+console.log(myArray); //9,7,5,3,1
+```
+
+## 97. Iterate Through an Array with a For Loop
+
+```js
+// Setup
+var myArr = [ 2, 3, 4, 5, 6];
+
+// Only change code below this line
+var total = 0;
+for (i = 0; i < myArr.length; i++) {
+  total += myArr[i];
+}
+console.log(total); //20
+```
+
+## 98. Nesting For Loops
+
+```js
+function multiplyAll(arr) {
+  var product = 1;
+  // Only change code below this line
+  for (var i = 0; i < arr.length; i++) {
+    for (var j = 0; j < arr[i].length; j++) {
+      product *= arr[i][j];
+    }
+  }
+  
+  // Only change code above this line
+  return product;
+}
+
+// Modify values below to test your code
+multiplyAll([[1,2],[3,4],[5,6,7]]);
+console.log(multiplyAll([[1,2],[3,4],[5,6,7]])); //5040
+
+```
+
+## 99. Iterate with JavaScript Do...While Loops
+Essentially, a do...while loop ensures that the code inside the loop will run at least once.
+
+```js
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+
+do {
+  myArray.push(i);
+  i++;
+} while (i < 10);
+
+console.log(myArray); //10
+```
+
+## 100. Profile Lookup
+
+```js
+//Setup
+var contacts = [
+    {
+        "firstName": "Akira",
+        "lastName": "Laine",
+        "number": "0543236543",
+        "likes": ["Pizza", "Coding", "Brownie Points"]
+    },
+    {
+        "firstName": "Harry",
+        "lastName": "Potter",
+        "number": "0994372684",
+        "likes": ["Hogwarts", "Magic", "Hagrid"]
+    },
+    {
+        "firstName": "Sherlock",
+        "lastName": "Holmes",
+        "number": "0487345643",
+        "likes": ["Intriguing Cases", "Violin"]
+    },
+    {
+        "firstName": "Kristian",
+        "lastName": "Vos",
+        "number": "unknown",
+        "likes": ["JavaScript", "Gaming", "Foxes"]
+    }
+];
+
+
+function lookUpProfile(name, prop) {
+// Only change code below this line
+  for (var i = 0; i < contacts.length; i++) {
+    if (name === contacts[i].firstName) {
+      if (contacts[i].hasOwnProperty(prop)) {
+        return contacts[i][prop];
+      } else {
+        return "No such property";
+      }
+    } 
+  }
+  return "No such contact";
+// Only change code above this line
+};
+
+// Change these values to test your function
+console.log(lookUpProfile("Akira", "likes")); //Pizza,Coding,Brownie Points
+
+console.log(lookUpProfile("Kristian", "lastName")); //Vos
+```
+
+## 101. Generate Random Fractions with JavaScript
+
+```js
+function randomFraction() {
+
+  // Only change code below this line.
+
+  return Math.random();
+
+  // Only change code above this line.
+}
+alert(randomFraction()); //0.93789...
+
+```
+
+## 102. Generate Random Whole Numbers with JavaScript
+
+```js
+function randomWholeNum() {
+
+  // Only change code below this line.
+
+  return Math.floor(Math.random() * 10);
+}
+console.log(randomWholeNum());
+```
+
+## 103. Generate Random Whole Numbers within a Range
+
+Math.floor(Math.random() * (max - min + 1)) + min
+
+```js
+function randomRange(myMin, myMax) {
+
+  return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin; // Change this line
+
+}
+
+// Change these values to test your function
+var myRandom = randomRange(5, 215);
+console.log(myRandom); //79 //51 //13 //157...
+```
+
+## 104. Use the parseInt Function
+
+```js
+function convertToInteger(str) {
+  return parseInt(str);
+}
+
+convertToInteger("56");
+console.log(convertToInteger("002399.344")); //2399
+console.log(convertToInteger("Hey12 15li")); //NaN
+
+```
+
+## 105. Use the parseInt Function with a Radix !
+
+The parseInt() function parses a string and returns an integer. It takes a second argument for the radix, which specifies the base of the number in the string. The radix can be an integer between 2 and 36.
+
+The function call looks like:
+
+parseInt(string, radix);
+
+And here's an example:
+
+var a = parseInt("11", 2);
+
+```js
+function convertToInteger(str) {
+  return parseInt(str, 2);
+}
+
+console.log(convertToInteger("10011")); //19
+```
+
+## 106. Use the Conditional (Ternary) Operator
+
+condition ? statement-if-true : statement-if-false;
+
+
+```js
+function checkEqual(a, b) {
+  return a === b ? true : false;
+}
+
+checkEqual(1, 2);
+console.log(checkEqual(1, 2)); //false
+console.log(checkEqual(22, 22)); //true
+```
+
+## 107. Use Multiple Conditional (Ternary) Operators 
+
+```js
+function checkSign(num) {
+  return (num === 0) ? "zero" : (num > 0) ? "positive" : "negative";
+}
+
+checkSign(10);
+console.log(checkSign(10)); //positive
+console.log(checkSign(-6586)); //negative
+console.log(checkSign(0)); //zero
+```
+
 
 
 
