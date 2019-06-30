@@ -37,13 +37,13 @@ alert(i--) // shows 1, decreases i to 0
 ## 2. Which values does the while loop show? (difference between i++ and ++i)
 
 ```js
-1.The prefix form ++i:
+1. The prefix form ++i:
 
 let i = 0;
 while (++i < 5) alert( i );
 //i=1, 2, 3, 4
 
-2.The postfix form i++
+2. The postfix form i++
 
 let i = 0;
 while (i++ < 5) alert( i );
