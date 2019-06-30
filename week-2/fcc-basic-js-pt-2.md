@@ -491,6 +491,26 @@ console.log(multiplyAll([[1,2],[3,4],[5,6,7]])); //5040
 
 ```
 
+## Notes:
+```js
+var arr = [[1,2], [3,4,0], [5,6,9,1]];
+ for (var i=0; i < arr.length; i++) {
+  for (var j=0; j < arr[i].length; j++) {
+    console.log(arr[i][j]);
+  }
+}
+
+or
+
+// ForInLoopExample.js
+var arr = [[1,2], [3,4,0], [5,6,9,1]];
+for (var index in arr) {
+  for (var index2 in arr[index])
+    console.log(arr[index][index2]);
+}
+
+```
+
 ## 99. Iterate with JavaScript Do...While Loops
 Essentially, a do...while loop ensures that the code inside the loop will run at least once.
 
